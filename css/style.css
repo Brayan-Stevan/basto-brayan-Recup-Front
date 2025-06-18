@@ -379,3 +379,23 @@ body {
     font-weight: bold;
 }
 
+.info2 {
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #4c4b4b;
+    font-weight: bold;
+    margin-top: -40px;
+}
+
+.info2 p {
+    font-size: 11px;
+    font-family: arial;
+    margin-bottom: 3px;
+    margin-top: 5px;
+}
+
+.input-custom {
+    width: 50%;
+    margin-top: 10px;
+}
+
