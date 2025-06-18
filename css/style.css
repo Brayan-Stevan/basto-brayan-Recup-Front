@@ -60,61 +60,84 @@ body {
     max-height: 80px;
 }
 
+.redes-custom4 {
+    background-color: #b94866;
+    clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
+    max-height: 80px;
+}
+
+.redes-custom5 {
+    background-color: white;
+    max-height: 80px;
+}
+
+.redes-custom6 {
+    background-color: #b94866;
+    clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
+    max-height: 80px;
+}
+
+.redes-custom7 {
+    background-color: white;
+    max-height: 80px;
+}
+
 
 .container-fluid img {
     max-width: 70%;
     height: auto;
     padding: 5px;
-    margin-top: 3px;
+    padding-top: 4px;
 }
 
-.opciones {
-    justify-content: space-between;
-    color: #f7f7f7;
-    margin-top: 20px;
+.collapse {
+    padding-top: 12px;
     display: flex;
     justify-content: flex-end;
 }
 
-
-.opciones a {
-    text-decoration: none;
+.collapse a {
     font-size: 13px;
     color: #34495E;
     display: inline-block;
     transition: all 0.2s ease;
 }
 
-.opciones li a:hover {
+.collapse li a:hover {
     color: #b94866;
     transform: scale(1.05);
     font-weight: bold;
 }
 
-.opciones ul {
-    list-style: none;
-    display: flex;
-}
-
-.opciones li {
-    align-items: center;
+.collapse li {
     cursor: pointer;
     font-weight: bold;
-    margin: 0 15px;
-    gap: 10px;
-    align-items: end;
+    margin: 0 10px;
 }
 
-.inicio {
+.nav-link1 {
     color: #b94866 !important;
     font-weight: bold;
+    text-decoration: none;
+    padding-top: 8px;
 }
 
-.ingresar {
+.nav-link2 {
     color: #b94866 !important;
     font-weight: bold;
+    text-decoration: none;
+    padding-top: 8px;
 }
 
+.dropdown-menu {
+    color: #b94866;
+}
+
+.nav-link:focus {
+  color: #b94866 !important;
+  text-decoration: none;
+  outline: none;
+}
 
 .texto-main1 {
     height: 100vh;
@@ -126,7 +149,7 @@ body {
     color: white;
     margin-bottom: 20px;
     padding-left: 18%;
-    padding-top: 17%;
+    padding-top: 20%;
 
 }
 
@@ -141,7 +164,7 @@ body {
 }
 
 .btn {
-    border-radius: 0px !important; /* Para quitar el border-radius */
+    border-radius: 0px !important; /* Para quitar el border-radius del button de bootstrap */
     border: 2px solid white !important;
     background-color: #b94866 !important;
     color: white !important;
@@ -155,3 +178,134 @@ body {
     background-color: #34495E !important;
 }
 
+
+.texto {
+    display: flex;
+    gap: 10px;
+}
+
+.texto h5 {
+    margin: 4px;
+    color: #747171;
+    margin-bottom: 15px;
+}
+
+.texto1 {
+    display: flex;
+    gap: 10px;
+}
+
+.texto1 h5 {
+    margin: 4px;
+    color: #747171;
+    margin-bottom: 20px;
+}
+
+.texto1 svg {
+    width: 30px;
+    height: 30px;
+    color: #747171;
+    margin-left: 60px;
+}
+
+.form-label1 {
+    color: #b94866;
+    margin-left: 180px;
+    margin-bottom: 10px;
+}
+
+.form-label2 {
+    color: #b94866;
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+
+.form-label3 {
+    color: #b94866;
+    margin-left: 85px;
+    margin-bottom: 10px;
+}
+
+.form-label4 {
+    color: #b94866;
+    margin-left: 110px;
+    margin-bottom: 10px;
+}
+
+.texto svg {
+    width: 30px;
+    height: 30px;
+    color: #747171;
+    margin-left: 85px;
+}
+
+.contenedor-control {
+    height: 75vh;
+}
+
+.form-container1 {
+    padding-left: 20%;
+    width: 50%;
+    height: 50%;
+    padding-top: 8%;
+    margin-left: 15%;
+}
+
+.form-container2 {
+    padding-left: 20%;
+    width: 50%;
+    height: 50%;
+    padding-top: 12%;
+    margin-left: 15%;
+}
+
+.container-login .btn {
+    margin-left: 140px;
+    width: 115px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.site-footer {
+    margin-top: 30px;
+    padding: 1%;
+    background-color: #b94866;
+    color: white;
+    text-align: center;
+}
+
+.site-footer h5 {
+    font-size: 13px;
+}
+
+.site-footer h6 {
+    font-size: 11px;
+}
+
+.recuperar {
+    text-decoration: none;
+    color: #747171;
+    padding-left: 27%;
+}
+
+.recuperar:hover {
+    color: #34495E;
+}
+
+.registro {
+    text-decoration: none;
+    color: #747171;
+    padding-left: 37%;
+}
+
+.registro:hover {
+    color: #34495E;
+}
+
+.texto-form p {
+  margin: 2px; 
+}
+
+.redes-custom4 {
+    border-color: #747171;
+}
