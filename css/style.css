@@ -200,22 +200,22 @@ body {
 
 .texto {
     display: flex;
-    gap: 10px;
+    gap: 1px;
 }
 
 .texto h5 {
-    margin: 4px;
+    margin: 0px;
     color: #747171;
     margin-bottom: 15px;
 }
 
 .texto1 {
     display: flex;
-    gap: 10px;
+    gap: 1px;
 }
 
 .texto1 h5 {
-    margin: 4px;
+    margin: 1px;
     color: #747171;
     margin-bottom: 20px;
 }
@@ -224,12 +224,12 @@ body {
     width: 30px;
     height: 30px;
     color: #747171;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .form-label1 {
     color: #b94866;
-    margin-left: 140px;
+    margin-left: 135px;
     margin-bottom: 10px;
 }
 
@@ -255,7 +255,7 @@ body {
     width: 30px;
     height: 30px;
     color: #747171;
-    margin-left: 60px;
+    margin-left: 55px;
 }
 
 .contenedor-control {
@@ -267,7 +267,7 @@ body {
     padding-right: 8%;
     width: 45%;
     padding-top: 3%;
-    margin-left: 26%;
+    margin-left: 27%;
     border-top: solid 1px #ccc;
     margin-top: 20px;
     margin-right: auto;
@@ -277,7 +277,7 @@ body {
     padding-left: 8%;
     padding-right: 8%;
     width: 45%;
-    padding-top: 5%;
+    padding-top: 3%;
     margin-left: 26%;
     border-top: solid 1px #ccc;
     margin-top: 20px;
@@ -310,7 +310,8 @@ body {
 .recuperar {
     text-decoration: none;
     color: #747171;
-    padding-left: 24%;
+    padding-left: 26%;
+    font-size: 14px;
 }
 
 .recuperar:hover {
@@ -320,7 +321,8 @@ body {
 .registro {
     text-decoration: none;
     color: #747171;
-    padding-left: 35%;
+    padding-left: 36%;
+    font-size: 14px;
 }
 
 .registro:hover {
