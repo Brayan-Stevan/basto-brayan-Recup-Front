@@ -151,7 +151,7 @@ body {
     color: white;
     margin-bottom: 20px;
     padding-left: 18%;
-    padding-top: 20%;
+    padding-top: 17%;
 
 }
 
@@ -207,30 +207,30 @@ body {
     width: 30px;
     height: 30px;
     color: #747171;
-    margin-left: 60px;
+    margin-left: 20px;
 }
 
 .form-label1 {
     color: #b94866;
-    margin-left: 180px;
+    margin-left: 140px;
     margin-bottom: 10px;
 }
 
 .form-label2 {
     color: #b94866;
-    margin-left: 150px;
+    margin-left: 110px;
     margin-bottom: 10px;
 }
 
 .form-label3 {
     color: #b94866;
-    margin-left: 85px;
+    margin-left: 45px;
     margin-bottom: 10px;
 }
 
 .form-label4 {
     color: #b94866;
-    margin-left: 110px;
+    margin-left: 70px;
     margin-bottom: 10px;
 }
 
@@ -238,19 +238,19 @@ body {
     width: 30px;
     height: 30px;
     color: #747171;
-    margin-left: 85px;
+    margin-left: 60px;
 }
 
 .contenedor-control {
-    height: 75vh;
+    height: 71vh;
 }
 
 .form-container1 {
     padding-left: 8%;
     padding-right: 8%;
     width: 45%;
-    padding-top: 8%;
-    margin-left: 28%;
+    padding-top: 3%;
+    margin-left: 26%;
     border-top: solid 1px #ccc;
     margin-top: 20px;
     margin-right: auto;
@@ -260,15 +260,15 @@ body {
     padding-left: 8%;
     padding-right: 8%;
     width: 45%;
-    padding-top: 8%;
-    margin-left: 28%;
+    padding-top: 3%;
+    margin-left: 26%;
     border-top: solid 1px #ccc;
     margin-top: 20px;
     margin-right: auto;
 }
 
 .container-login .btn {
-    margin-left: 140px;
+    margin-left: 105px;
     width: 115px;
     height: 40px;
     margin-bottom: 20px;
@@ -292,7 +292,7 @@ body {
 .recuperar {
     text-decoration: none;
     color: #747171;
-    padding-left: 27%;
+    padding-left: 22%;
 }
 
 .recuperar:hover {
@@ -302,7 +302,7 @@ body {
 .registro {
     text-decoration: none;
     color: #747171;
-    padding-left: 37%;
+    padding-left: 33%;
 }
 
 .registro:hover {
