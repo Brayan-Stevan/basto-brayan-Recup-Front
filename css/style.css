@@ -4,6 +4,11 @@ body {
     overflow: hidden;
 }
 
+.scroll {
+    overflow-y: auto; 
+}
+
+
 .contenedor-entero {
     background: url('../img/elementos.jpg');
     background-size: cover;
@@ -332,7 +337,7 @@ body {
 .formulario {
     padding-left: 5%;
     padding-right: 5%;
-    width: 80%;
+    max-width: 900px;
     padding-top: 3%;    
     margin-left: 10%;
     padding-top: 15px;
@@ -340,5 +345,31 @@ body {
     margin-right: auto;
     margin-top: 30px;
     border-top: solid 1px #ccc;
-    
+}
+
+.formulario input.form-control {
+    height: 30px;
+    font-size: 0.875rem;
+    padding: 0.25rem 0.5rem;
+}
+
+.form-label {
+    font-size: 14px;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.info h6 {
+    font-size: 14px;
+    color: #4c4b4b;
+}
+
+.info i {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4c4b4b;
+    margin: 5px;
+    margin-bottom: 30px;
 }
