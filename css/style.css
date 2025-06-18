@@ -427,3 +427,92 @@ body {
 .bi-person-fill {
     margin-right: 6px;
 }
+
+@media (max-width: 768px) {
+  .redes-custom, .redes-custom1, .redes-custom2, .redes-custom3,
+  .redes-custom4, .redes-custom5, .redes-custom6, .redes-custom7,
+  .redes-custom8, .redes-custom9 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+  .redes-custom svg,
+  .redes-custom1 svg,
+  .redes-custom1 h5,
+  .redes-custom svg + h5 {
+    margin-left: 0 !important;
+    margin-top: 10px;
+}
+
+  .collapse {
+    justify-content: center !important;
+}
+
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+}
+
+  .btn-main {
+    margin-left: 0 !important;
+    display: block;
+    margin: 20px auto;
+}
+
+  .texto-main1 h2,
+  .texto-main1 h4 {
+    margin-left: 0 !important;
+    text-align: center;
+    padding-left: 0;
+}
+
+  .texto-main1 h4 {
+    padding-top: 30%;
+}
+
+  .form-container1,
+  .form-container2,
+  .formulario,
+  .input-custom {
+    width: 90% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+  .form-label1,
+  .form-label2,
+  .form-label3,
+  .form-label4 {
+    margin-left: 0 !important;
+    display: block;
+    text-align: center;
+}
+
+  .container-login .btn,
+  .final .btn {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block;
+}
+
+  .recuperar,
+  .registro {
+    padding-left: 0 !important;
+    text-align: center;
+    display: block;
+}
+
+  .final p {
+    margin-left: 0 !important;
+    text-align: center;
+}
+
+  .texto-form {
+    text-align: center;
+}
+
+  .site-footer {
+    padding: 10px 0;
+}
+}
