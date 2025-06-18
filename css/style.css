@@ -418,3 +418,10 @@ body {
     border: 2px solid !important;
     border-color: #34495E !important;
 }
+.bi-person-vcard-fill,
+.bi-telephone-fill,
+.bi-envelope-fill,
+.bi-key-fill,
+.bi-person-fill {
+    margin-right: 6px;
+}
